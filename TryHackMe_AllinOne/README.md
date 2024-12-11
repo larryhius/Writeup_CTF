@@ -1,10 +1,4 @@
-# All in One-Edit php file as admin&SUID chmod
-
-```
-export IP=10.10.153.220
-```
-
-# Material needed
+# All in One-Local File Inclusion&SUID chmod
 
 1. Interesting directory: /wordpress
 
