@@ -1,0 +1,18 @@
+# Nmap 7.91 scan initiated Sun Jun 13 08:11:02 2021 as: nmap -sV -sC -A -o nmap_result.txt 10.10.123.236
+Nmap scan report for 10.10.123.236
+Host is up (0.22s latency).
+Not shown: 997 filtered ports
+PORT    STATE  SERVICE VERSION
+22/tcp  closed ssh
+80/tcp  closed http
+443/tcp closed https
+Too many fingerprints match this host to give specific OS details
+Network Distance: 2 hops
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT       ADDRESS
+1   207.43 ms 10.8.0.1
+2   207.84 ms 10.10.123.236
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jun 13 08:11:36 2021 -- 1 IP address (1 host up) scanned in 34.48 seconds
