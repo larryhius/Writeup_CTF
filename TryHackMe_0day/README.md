@@ -1,11 +1,5 @@
 # 0day-cgi bin exploit&Kernel exploit
 
-```
-export IP=10.10.67.15
-```
-
-# Material needed
-
 1. Interesting directory: /cgi-bin, /backup
 
 2. Passphrase key: letmein
